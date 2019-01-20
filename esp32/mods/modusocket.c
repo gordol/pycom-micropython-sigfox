@@ -685,7 +685,7 @@ STATIC mp_obj_t mod_usocket_getaddrinfo(mp_obj_t host_in, mp_obj_t port_in) {
     }
     if(is_inf_down)
     {
-    	nlr_raise(mp_obj_new_exception_msg(&mp_type_OSError, "Avialable Interfaces are down"));
+    	nlr_raise(mp_obj_new_exception_msg(&mp_type_OSError, "Available Interfaces are down"));
     }
     else
     {
